@@ -23,7 +23,7 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
-.btn {
+.bttn {
   display: inline-block;
   background: #000;
   color: #fff;
@@ -36,23 +36,23 @@ body {
   font-size: 15px;
   font-family: inherit;
 }
-.btn:focus {
+.bttn:focus {
   outline: none;
 }
-.btn:active {
+.bttn:active {
   transform: scale(0.98);
 }
 
-.btn-block {
+.bttn-block {
   display: block;
   width: 100%;
 }
 
-.form-control {
+.form-controls {
   margin: 20px 0;
 }
 
-.form-control label {
+.form-controls label {
   display: block;
 }
 
@@ -70,11 +70,15 @@ body {
   justify-content: space-between;
 }
 
-.form-control-check label {
+.form-controls-check label {
   flex: 1;
 }
 
-.form-control-check input {
+.form-controls-check input {
   flex: 2;
   height: 20px;
+}
+
+.form-check-input {
+  margin-left: 3rem;
 }
